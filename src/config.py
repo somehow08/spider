@@ -10,12 +10,12 @@ DEFAULT_HEADERS = {
         "Chrome/124.0.0.0 Safari/537.36"
     ),
     "Referer": "https://m.weibo.cn/",
-    "Cookie": "",
+    "Cookie": "",#请在此处填写您的Cookie字符串，以便程序能够访问微博数据。
+    #您可以从浏览器的开发者工具中获取Cookie信息，并将其复制粘贴到这里。
 }
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-
 
 @dataclass
 class CrawlSettings:
