@@ -1,1 +1,1 @@
-requests>=2.31.0
+requests>=2.31.0#需要安装requests库来发送HTTP请求
