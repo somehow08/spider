@@ -1,3 +1,6 @@
+time="2026-04-01"
+author="Chen Mingze"
+
 from .config import CrawlSettings, DEFAULT_HEADERS, OUTPUT_DIR
 from .crawler import crawl_weibo
 from .storage import save_csv, save_json

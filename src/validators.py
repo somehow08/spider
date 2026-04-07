@@ -1,3 +1,6 @@
+time="2026-04-01"
+author="Chen Mingze"
+
 def validate_cookie(cookie: str) -> str:
     if not cookie or not cookie.strip():
         raise ValueError("Cookie 为空，请填入浏览器复制的完整 Cookie 值。")
