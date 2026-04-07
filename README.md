@@ -12,6 +12,9 @@
 3. 运行
    python run.py
 
+⭐注意！我编写时配置的是新浪微博移动端的接口，获取Cookie请从移动端https://m.weibo.cn/ 获取，不要搞成网页端了
+
+
 ## 项目结构
 
 ```text
