@@ -6,10 +6,10 @@
 ## 运行方式
 1. 安装依赖
    pip install -r requirements.txt
-2. 编辑 src/weibo_spider/main.py
-   - 在 settings.keyword 中填入你想爬取的帖子对应的关键词
+2. 填入 keyword 和 Cookie
+   - 在 src/weibo_spider/main.py 的 settings.keyword 中填入你想爬取的帖子对应的关键词
    - 在 src/weibo_spider/config.py 的 DEFAULT_HEADERS["Cookie"] 填登录 Cookie
-3. 运行
+4. 运行
    python run.py
 
 ⭐注意！我编写时配置的是新浪微博移动端的接口，获取Cookie请从移动端https://m.weibo.cn/ 获取，不要搞成网页端
